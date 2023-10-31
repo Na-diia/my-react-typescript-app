@@ -8,9 +8,7 @@ type Props = {
 
 function App({user}: Props) {
   return (
-    <div className="App">
-     <h1>{`User name is ${user.name}`}</h1>
-     <h2>{`User age is ${user.age}`}</h2>
+    <div className="App" id='app'>
     </div>
   );
 };
